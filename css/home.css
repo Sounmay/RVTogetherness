@@ -1,6 +1,12 @@
 table.center {
   margin-left:auto; 
   margin-right:auto;
+  align-content: space-between;
+}
+
+th.left{
+  text-align: left;
+  align-self: start;
 }
 
 h3.tt{
@@ -12,7 +18,7 @@ h4.tt{
 }
 
 div.home {
-  background-color: green;
+  background-color: #25CA46;
   color: white;
   text-align: center;
 }
@@ -74,4 +80,21 @@ div.card{
   width: 250px;
   height: 200px;
   background: green;
+}
+
+.square div {
+  width: 3;
+  height: 3;
+  background-color: black;
+}
+
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 15.6%;
+  background-color: #404040;
+  color: white;
+  text-align: right;
+  
 }
