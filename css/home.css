@@ -96,5 +96,67 @@ div.card{
   background-color: #404040;
   color: white;
   text-align: right;
-  
+
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+div.event{
+  display: flex;
+  justify-content: space-between;
+  margin:0px;
+  background-color: #E2E2E2;
+  color: #737373;
+}
+
+span {
+  width:fit-content;
+  height:fit-content;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+div.events{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+div.heading{
+  display: flex;
+  justify-content: space-between;
+  margin:0px;
+  color: black;
+  font-weight: bold;
+  margin-left: 30%;
+  margin-right: 2%;
+}
+
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+
+a:hover {
+  color: blue;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: 25CB46;
+  background-color: transparent;
+  text-decoration: underline;
 }
